@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="first">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/free-to-play-db.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-to-play-db.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/apiService/APIService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/apiService/APIService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/container/Container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/Container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/container/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header..css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header..css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search/Search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/Spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/Spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/Spinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +100,7 @@
       <workItem from="1609694026994" duration="15292000" />
       <workItem from="1609738254023" duration="6583000" />
       <workItem from="1609762791739" duration="12600000" />
-      <workItem from="1609789542487" duration="5148000" />
+      <workItem from="1609789542487" duration="5416000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1609744484486</created>
@@ -141,7 +109,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609744484486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="optimize code, add random comp">
+      <created>1609795725112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609795725112</updated>
+    </task>
+    <task id="LOCAL-00003" summary="optimize code, add random comp, add lazyload">
+      <created>1609795891378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609795891378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="optimize code, add random comp, add lazyload">
+      <created>1609795923603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609795923603</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +152,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="optimize code, add random comp" />
+    <MESSAGE value="optimize code, add random comp, add lazyload" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize code, add random comp, add lazyload" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609779484235">
