@@ -1,8 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apiService/APIService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/container/Container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/container/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header..css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/itemList/itemList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/itemList/itemList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/logo/Logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/logo/Logo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search/Search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/Spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mSUsmlgsNKoUpxfbxGXjbgxMvC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/logo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components\logo" />
+      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components\apiService" />
+      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components\styles" />
+      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="" />
+      <created>1609486694700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609486694700</updated>
+      <workItem from="1609486696175" duration="24871000" />
+      <workItem from="1609522419369" duration="20859000" />
+      <workItem from="1609564775998" duration="200000" />
+      <workItem from="1609565769869" duration="14355000" />
+      <workItem from="1609608009620" duration="15389000" />
+      <workItem from="1609656633436" duration="11521000" />
+      <workItem from="1609672014119" duration="12120000" />
+      <workItem from="1609694026994" duration="15292000" />
+      <workItem from="1609738254023" duration="5930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

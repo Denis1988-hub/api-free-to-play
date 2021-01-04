@@ -1,0 +1,9 @@
+.size {
+    width: 48%;
+}
+
+.jc-sb {
+    justify-content: space-between;
+    margin: -8px;
+    box-sizing: border-box;
+}

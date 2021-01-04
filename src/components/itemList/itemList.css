@@ -1,0 +1,24 @@
+.game-card {
+    width: 24%;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+
+.item {
+    height: 290px;
+    background-color: #32383e;
+    -webkit-transition: 0.2s ease-in; /* Safari and Chrome */
+    -moz-transition: 0.2s ease-in; /* Firefox 4 */
+    -o-transition: 0.2s ease-in; /* Opera */
+}
+
+
+
+.item:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px #cccccc;
+}
+
+
+
+

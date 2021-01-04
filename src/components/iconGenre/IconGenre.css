@@ -1,0 +1,27 @@
+
+i {
+    font-size: 16px;
+    margin-right: 3px;
+
+}
+
+.text-muted {
+    margin-left: 5px;
+}
+
+.fa-firefox-browser {
+    color: coral;
+}
+
+.fa-windows {
+    color: white;
+}
+
+.badge {
+    margin-left: 1rem;
+    background: orangered;
+    font-size: 14px;
+    color: black;
+    float: right;
+    padding: 2px;
+}

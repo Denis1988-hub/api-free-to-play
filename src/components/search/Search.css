@@ -1,0 +1,29 @@
+.search {
+
+}
+
+.form {
+    margin-left: 40px;
+}
+
+.form .btn {
+    background: none;
+    color: orangered;
+    border: 1px solid orangered;
+    transition: all 0.15s;
+}
+
+.form .btn:hover {
+    background: orangered;
+    color: #fff;
+}
+
+.form .btn:focus {
+    box-shadow: none;
+}
+
+.form .btn:active {
+    background: tomato;
+    border-color: tomato;
+
+}
