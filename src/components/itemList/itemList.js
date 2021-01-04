@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './itemList.css'
 import IconGenre from "../iconGenre/IconGenre";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class ItemList extends Component {
 
@@ -28,11 +30,17 @@ class ItemList extends Component {
 
 
     return (
+
         <div className="col-xl-3 col-md-4 game-card video-card">
 
           <div className="card-group">
             <div className="card item">
-              <img src={thumbnail} className="card-img-top" alt=""/>
+
+              <LazyLoadImage
+                  effect="blur"
+                  src={thumbnail}
+                  delayTime={200}
+              />
               <div className="card-body">
                 <h6 className="card-title">{title}</h6>
                 <p className="card-text"><small>{onCutDescription}</small></p>
@@ -43,6 +51,7 @@ class ItemList extends Component {
             </div>
           </div>
         </div>
+
     );
   }
 }

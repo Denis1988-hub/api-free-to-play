@@ -5,13 +5,16 @@
 }
 
 .item {
-    height: 290px;
+    height: 280px;
     background-color: #32383e;
     -webkit-transition: 0.2s ease-in; /* Safari and Chrome */
     -moz-transition: 0.2s ease-in; /* Firefox 4 */
     -o-transition: 0.2s ease-in; /* Opera */
 }
 
+.item img {
+    width: 100%;
+}
 
 
 .item:hover{

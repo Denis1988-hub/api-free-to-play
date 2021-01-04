@@ -1,34 +1,74 @@
 import React, {Component} from 'react';
 import './RandomGame.css'
 import Spinner from "../spinner/Spinner";
+import APIService from "../apiService/APIService";
+import freePng from './frees.png'
 
-class RandomGame extends Component {
+export default class RandomGame extends Component {
+
+  api = new APIService();
+
+  state = {
+    images: []
+  };
+
+  componentDidMount() {
+    this.interval = setInterval(() => {
+      this.getData()
+    }, 5000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval)
+  }
+
+
+  onImageLoaded = (images) => {
+    const img = images.map(img => img.thumbnail);
+    this.setState(() => {
+      return {
+        images: img
+      }
+
+    })
+  };
+
+  getData() {
+    this.api.getGameList()
+        .then((item) => this.onImageLoaded(item))
+  }
 
   renderCard(image) {
-    if (Object.keys(image).length !== 0) {
-      return (
-          <div className="card size">
-            <img className="card-img-top" src={image.thumbnail} alt={''}/>
-          </div>)
-    } else {
-      return (
-          <Spinner/>
-      )
-    }
+      if (Object.keys(image).length !== 0) {
+        const index = Math.floor(Math.random() * image.length);
+        return (
+            <div className="card size">
+              <img className="card-img-top" src={image[index]} alt={''}/>
+              <img className="free" src={freePng} alt=""/>
+            </div>)
+      } else {
+        return (
+            <Spinner/>
+        )
+      }
+
   }
+
+  renderContent(images) {
+    return (
+        <div className="d-flex jc-sb mb-4 mt-4">
+          {this.renderCard(images)}
+          {this.renderCard(images)}
+        </div>
+    )
+  }
+
 
   render() {
 
-    const {fGame, sGame} = this.props;
+    const {images} = this.state;
 
-    return (
+    return this.renderContent(images)
 
-        <div className="d-flex jc-sb mb-3 mt-3">
-          {this.renderCard(fGame)}
-          {this.renderCard(sGame)}
-        </div>
-    );
   }
 }
-
-export default RandomGame;

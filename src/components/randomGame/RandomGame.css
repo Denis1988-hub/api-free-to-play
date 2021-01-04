@@ -7,3 +7,10 @@
     margin: -8px;
     box-sizing: border-box;
 }
+
+.free {
+    width: 70px;
+    bottom: -15px;
+    right: -19px;
+    position: absolute;
+}

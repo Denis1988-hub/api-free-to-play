@@ -3,4 +3,13 @@
     color: white;
     font-size: 21px;
     margin-right: 20px;
+    transition: all 0.15s;
+}
+
+.logoPng {
+    width: 90px;
+}
+
+.logo:hover {
+    color: tomato;
 }
