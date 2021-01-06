@@ -19,7 +19,10 @@ class Search extends Component {
   };
 
   onHandleClick = () => {
-    this.props.onSearchItems(this.state.query)
+    this.props.onSearchItems(this.state.query);
+    this.setState({
+      query: ''
+    })
   };
 
   render() {
@@ -29,6 +32,7 @@ class Search extends Component {
           onSubmit={(e) => this.onFormSubmit(e)}
         >
           <input className="form-control me-2" type="search" placeholder="Search for...."
+                 value={this.state.query}
             onChange={this.handleInputChange}
           />
           <button className="btn btn-outline-primary" type="submit"
