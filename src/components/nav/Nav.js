@@ -7,9 +7,8 @@ import Search from "../search/Search";
 class Nav extends Component {
 
 
-
-
   render() {
+
     return (
 
         <nav className={"navbar navbar-expand navbar-dark"}>
@@ -30,7 +29,7 @@ class Nav extends Component {
                 <a className="nav-link" href="#">Top Games</a>
               </li>
             </ul>
-            <Search />
+            <Search onSearchItems={this.props.onSearchItems}/>
           </div>
         </nav>
     );

@@ -3,7 +3,7 @@ import Layout from "../HOC/Layout/Layout";
 import Header from "../header/Header";
 import Container from "../container/Container";
 import APIService from "../apiService/APIService";
-import Spinner from "../spinner/Spinner";
+import Error from "../Error/Error";
 
 
 class App extends Component {
@@ -12,6 +12,7 @@ class App extends Component {
 
   state = {
     data: [],
+    query: ''
   };
 
   componentDidMount() {
@@ -30,15 +31,30 @@ class App extends Component {
   updateData() {
     this.api.getGameList()
         .then(list => this.onListLoaded(list))
-        .catch(<Spinner/>)
+        .catch(<Error/>)
   }
+
+  filter = (data, query) => {
+    if (data) {
+      return data.filter(item => item.title.toLowerCase().indexOf(query.toLowerCase()) > -1)
+
+    }
+  };
+
+  onSearchItems = (query) => {
+    this.setState({ query })
+  };
 
 
   render() {
+
+    const { data, query } = this.state;
+    const visibleItems = this.filter(data, query);
+
     return (
         <Layout>
-          <Header />
-          <Container data={this.state.data}/>
+          <Header onSearchItems={this.onSearchItems}/>
+          <Container data={visibleItems}/>
         </Layout>
     );
   }

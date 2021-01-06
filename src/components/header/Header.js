@@ -8,7 +8,7 @@ class Header extends Component {
     return (
         <div className={'header'}>
           <div className={'header-content'}>
-            <Nav />
+            <Nav onSearchItems={this.props.onSearchItems}/>
           </div>
         </div>
   )

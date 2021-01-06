@@ -24,4 +24,17 @@ body {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: orangered;
+    border-radius: 8px;
+    height: 33px;
+}
+
+::-webkit-scrollbar-track-piece { background-color: #5a1b1f;}
+
+
 

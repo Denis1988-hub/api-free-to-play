@@ -27,7 +27,6 @@ export default class Container extends Component {
         <div className="container">
           <h1>Best Free to Play Games for PC and Browser in 2021!</h1>
           <p><strong>{data.length}</strong> free-to-play games found in our list!</p>
-
           <RandomGame/>
 
           <div className='game-area'>

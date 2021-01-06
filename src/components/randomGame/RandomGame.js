@@ -3,6 +3,7 @@ import './RandomGame.css'
 import Spinner from "../spinner/Spinner";
 import APIService from "../apiService/APIService";
 import freePng from './frees.png'
+import Error from "../Error/Error";
 
 export default class RandomGame extends Component {
 
@@ -15,7 +16,7 @@ export default class RandomGame extends Component {
   componentDidMount() {
     this.interval = setInterval(() => {
       this.getData()
-    }, 5000);
+    }, 3000);
   }
 
   componentWillUnmount() {
@@ -36,6 +37,7 @@ export default class RandomGame extends Component {
   getData() {
     this.api.getGameList()
         .then((item) => this.onImageLoaded(item))
+        .catch(<Error/>)
   }
 
   renderCard(image) {
