@@ -1,0 +1,37 @@
+.cls {
+    transition: all .2s ease-in-out;
+    background-color: #272b30;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.6);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: .25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.thumbnail {
+    width: 30%;
+    border: none;
+    margin-left: -50px;
+}
+
+.num {
+    width: 10%;
+    color: tomato;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about {
+    width: 60%;
+}
+
+.cls:hover{
+    transform: translateY(1px);
+    box-shadow: 0 1px 10px #cccccc;
+}

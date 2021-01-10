@@ -9,7 +9,28 @@ export default class Container extends Component {
 
 
   showGameList(data) {
-    return data.map((item) => <ItemList key={item.id} {...item} />
+    return data.map((item) => <ItemList
+            key={item.id}
+            {...item}
+            onHandlerCardClick={() => this.props.onHandlerCardClick(item.id)}
+
+        />
+    )
+  }
+
+  isEmpty() {
+    return (
+        <div className="empty">
+          <h1>Nothing found...</h1>
+          <p className="lead">
+            Refresh page or click the button
+          </p>
+          <button className="btn btn-secondary"
+                  onClick={() => document.location.reload()}
+          >
+            Return
+          </button>
+        </div>
     )
   }
 
@@ -22,17 +43,13 @@ export default class Container extends Component {
       return <Spinner/>
     }
 
-
     return (
-        <div className="container">
-          <h1>Best Free to Play Games for PC and Browser in 2021!</h1>
-          <p><strong>{data.length}</strong> free-to-play games found in our list!</p>
-          <RandomGame/>
-
-          <div className='game-area'>
-            {this.showGameList(data)}
-          </div>
-        </div>
+          <>
+            <p><strong>{data.length}</strong> free-to-play games found in our list!</p>
+            <div className='game-area'>
+              {this.showGameList(data)}
+            </div>
+          </>
     );
   }
 }

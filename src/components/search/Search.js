@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Search.css'
+import {Link} from "react-router-dom";
 
 class Search extends Component {
 
@@ -35,9 +36,10 @@ class Search extends Component {
                  value={this.state.query}
             onChange={this.handleInputChange}
           />
+          <Link to='/game-list' exact >
           <button className="btn btn-outline-primary" type="submit"
             onClick={() => this.onHandleClick()}
-          >Search</button>
+          >Search</button></Link>
         </form>
     );
   }

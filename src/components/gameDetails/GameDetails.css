@@ -1,0 +1,53 @@
+
+.video-page {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 10px;
+    color: #f3f3f3;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.07;
+}
+
+.video-page {
+    font-size: 16px;
+}
+
+.sidebar {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.sidebar ul li {
+    border-bottom-color: darkgrey;
+}
+
+.info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-card {
+    background-color: transparent;
+}
+
+.player {
+    position: static;
+    width: inherit;
+    height: 300px;
+    background-color: transparent;
+}
+
+.sidebar ul li {
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+}

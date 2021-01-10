@@ -1,16 +1,19 @@
-.size {
-    width: 48%;
+.random-container{
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
-.jc-sb {
-    justify-content: space-between;
-    margin: -8px;
-    box-sizing: border-box;
+
+.size {
+    width: 50%;
+    background-color: transparent;
 }
+
+
 
 .free {
-    width: 70px;
-    bottom: -15px;
-    right: -19px;
+    width: 60px;
+    bottom: -10px;
+    right: -10px;
     position: absolute;
 }

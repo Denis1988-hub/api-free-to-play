@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/isEmpty/isEmpty.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/isEmpty/isEmpty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/topGames/topGames.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimize_code,_add_random_comp,_add_lazyload.patch" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topGames/topGames.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/apiService/APIService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/apiService/APIService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/container/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.js" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +40,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1mSUsmlgsNKoUpxfbxGXjbgxMvC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,9 +64,6 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MyReactProjects\api-free-to-play-master\src\components\logo" />
       <recent name="E:\MyReactProjects\api-free-to-play-master\src\components\randomGame" />
@@ -62,6 +71,22 @@
       <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components\apiService" />
       <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components\styles" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components\" />
+      <recent name="D:\WebStormProjects\MyProject\free-to-play-db\src\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -74,7 +99,6 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
-      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -104,11 +128,16 @@
       <workItem from="1609877260638" duration="34000" />
       <workItem from="1609877407171" duration="4187000" />
       <workItem from="1609914396373" duration="6349000" />
-      <workItem from="1609935746462" duration="323000" />
-      <workItem from="1609936085645" duration="3000" />
-      <workItem from="1609936147089" duration="41000" />
-      <workItem from="1609936230600" duration="11000" />
-      <workItem from="1609936303721" duration="4576000" />
+      <workItem from="1610097915389" duration="5447000" />
+      <workItem from="1610118561108" duration="1645000" />
+      <workItem from="1610121601857" duration="4000" />
+      <workItem from="1610127505383" duration="8549000" />
+      <workItem from="1610139025753" duration="5010000" />
+      <workItem from="1610148076802" duration="2854000" />
+      <workItem from="1610170678238" duration="7885000" />
+      <workItem from="1610195205286" duration="10209000" />
+      <workItem from="1610215864242" duration="5582000" />
+      <workItem from="1610275686452" duration="8340000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1609744484486</created>
@@ -163,19 +192,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -190,26 +220,9 @@
       <screen x="0" y="0" width="1707" height="919" />
     </state>
     <state x="583" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1609779484235" />
-    <state x="560" y="141" key="#npm_start" timestamp="1609935862657">
-      <screen x="0" y="0" width="1707" height="919" />
+    <state x="2480" y="141" key="#npm_start" timestamp="1609763050070">
+      <screen x="1920" y="0" width="1707" height="919" />
     </state>
-    <state x="560" y="141" key="#npm_start/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1609935862657" />
     <state x="2480" y="141" key="#npm_start/0.0.1707.919/1920.0.1707.919@1920.0.1707.919" timestamp="1609763050070" />
-    <state width="1686" height="142" key="GridCell.Tab.0.bottom" timestamp="1609945003835">
-      <screen x="0" y="0" width="1707" height="919" />
-    </state>
-    <state width="1686" height="142" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1609945003835" />
-    <state width="1686" height="142" key="GridCell.Tab.0.center" timestamp="1609945003835">
-      <screen x="0" y="0" width="1707" height="919" />
-    </state>
-    <state width="1686" height="142" key="GridCell.Tab.0.center/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1609945003835" />
-    <state width="1686" height="142" key="GridCell.Tab.0.left" timestamp="1609945003835">
-      <screen x="0" y="0" width="1707" height="919" />
-    </state>
-    <state width="1686" height="142" key="GridCell.Tab.0.left/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1609945003835" />
-    <state width="1686" height="142" key="GridCell.Tab.0.right" timestamp="1609945003835">
-      <screen x="0" y="0" width="1707" height="919" />
-    </state>
-    <state width="1686" height="142" key="GridCell.Tab.0.right/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1609945003835" />
   </component>
 </project>

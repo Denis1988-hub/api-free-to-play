@@ -2,6 +2,7 @@
 export default class APIService {
 
    _base = `https://free-to-play-games-database.p.rapidapi.com/api`;
+   _videoBase = `https://www.freetogame.com/g`;
    init = {
   "method": "GET",
   "headers": {
@@ -35,6 +36,10 @@ export default class APIService {
 
   getGameByBrowser = async () => {
     return await this.getGameByPlatform('browser')
+  };
+
+  getGameVideo = (id) => {
+    return `${this._videoBase}/${id}/videoplayback.webm`
   };
 
   getGamesByCategory = async (tag) => {

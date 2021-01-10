@@ -1,20 +1,16 @@
 import React from 'react';
 import style from './Logo.module.css'
 import logoPng from './free.png'
+import {NavLink} from "react-router-dom";
 
 const Logo = () => {
   return (
-      <>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-      <a className="navbar-brand" href="/">
+      <NavLink className="navbar-brand" to="/" exact={'/'}>
           <img className={style.logoPng} src={logoPng} alt=""/>
           <span className={style.logo}>
             -𝓉♡-𝒫𝓁𝒶𝓎
           </span>
-      </a>
-</>
-
-
+      </NavLink>
 
   );
 };

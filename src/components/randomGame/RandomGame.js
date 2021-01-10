@@ -14,14 +14,9 @@ export default class RandomGame extends Component {
   };
 
   componentDidMount() {
-    this.interval = setInterval(() => {
       this.getData()
-    }, 3000);
   }
 
-  componentWillUnmount() {
-    clearInterval(this.interval)
-  }
 
 
   onImageLoaded = (images) => {
@@ -41,24 +36,28 @@ export default class RandomGame extends Component {
   }
 
   renderCard(image) {
-      if (Object.keys(image).length !== 0) {
-        const index = Math.floor(Math.random() * image.length);
-        return (
-            <div className="card size">
+    if (Object.keys(image).length !== 0) {
+      const index = Math.floor(Math.random() * image.length);
+      return (
+
+            <div className="card mb-4 size">
               <img className="card-img-top" src={image[index]} alt={''}/>
               <img className="free" src={freePng} alt=""/>
-            </div>)
-      } else {
-        return (
-            <Spinner/>
-        )
-      }
+
+          </div>)
+    } else {
+      return (
+          <Spinner/>
+      )
+    }
 
   }
 
   renderContent(images) {
     return (
-        <div className="d-flex jc-sb mb-4 mt-4">
+        <div className="row random-container">
+          {this.renderCard(images)}
+          {this.renderCard(images)}
           {this.renderCard(images)}
           {this.renderCard(images)}
         </div>
@@ -68,9 +67,9 @@ export default class RandomGame extends Component {
 
   render() {
 
-    const {images} = this.state;
+  const {images} = this.state;
 
-    return this.renderContent(images)
+  return this.renderContent(images)
 
   }
-}
+  }

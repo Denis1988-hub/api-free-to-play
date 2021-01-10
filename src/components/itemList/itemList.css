@@ -7,9 +7,14 @@
 .item {
     height: 280px;
     background-color: #32383e;
+    color: #cccccc;
     -webkit-transition: 0.2s ease-in; /* Safari and Chrome */
     -moz-transition: 0.2s ease-in; /* Firefox 4 */
     -o-transition: 0.2s ease-in; /* Opera */
+}
+
+.navlink {
+    text-decoration: none;
 }
 
 .item img {
@@ -20,6 +25,7 @@
 .item:hover{
     transform: translateY(-3px);
     box-shadow: 0 4px 10px #cccccc;
+
 }
 
 

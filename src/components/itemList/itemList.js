@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import './itemList.css'
 import IconGenre from "../iconGenre/IconGenre";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import {LazyLoadImage} from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import {NavLink} from "react-router-dom";
 
 class ItemList extends Component {
 
@@ -21,9 +22,8 @@ class ItemList extends Component {
     const {
       developer, ftgProfileUrl, gameUrl, id, genre,
       platform, publisher, releaseDate, shortDescription,
-      thumbnail, title
+      thumbnail, title, onHandlerCardClick
     } = this.props;
-
 
 
     const onCutDescription = this.toStraightString(shortDescription)
@@ -31,26 +31,29 @@ class ItemList extends Component {
 
     return (
 
-        <div className="col-xl-3 col-md-4 game-card video-card">
-
+        <div className="col-xl-3 col-md-4 game-card">
           <div className="card-group">
-            <div className="card item">
-
-              <LazyLoadImage
-                  effect="blur"
-                  src={thumbnail}
-                  delayTime={200}
-              />
-              <div className="card-body">
-                <h6 className="card-title">{title}</h6>
-                <p className="card-text"><small>{onCutDescription}</small></p>
-                <p className="card-text icon">
-                  <IconGenre platform={platform} genre={genre}/>
-                </p>
+            <NavLink className="navlink" to={'/game-details'}>
+              <div className="card item"
+                   onClick={onHandlerCardClick}
+              >
+                <LazyLoadImage
+                    effect="blur"
+                    src={thumbnail}
+                    delayTime={200}
+                />
+                <div className="card-body">
+                  <h6 className="card-title">{title}</h6>
+                  <p className="card-text"><small>{onCutDescription}</small></p>
+                  <p className="card-text icon">
+                    <IconGenre platform={platform} genre={genre}/>
+                  </p>
+                </div>
               </div>
-            </div>
+            </NavLink>
           </div>
         </div>
+
 
     );
   }
