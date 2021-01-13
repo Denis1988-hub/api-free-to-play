@@ -2,27 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/topGames/topGames.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optimize_code,_add_random_comp,_add_lazyload.patch" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topGames/topGames.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HOC/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/apiService/APIService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/apiService/APIService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/container/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/Container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +128,10 @@
       <workItem from="1610170678238" duration="7885000" />
       <workItem from="1610195205286" duration="10209000" />
       <workItem from="1610215864242" duration="5582000" />
-      <workItem from="1610275686452" duration="8340000" />
+      <workItem from="1610275686452" duration="8426000" />
+      <workItem from="1610343042625" duration="113000" />
+      <workItem from="1610484023061" duration="5382000" />
+      <workItem from="1610510918975" duration="6629000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1609744484486</created>
@@ -188,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609920585355</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add react-router-dom">
+      <created>1610286038057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610286038057</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +214,8 @@
     <MESSAGE value="optimize code, add random comp" />
     <MESSAGE value="optimize code, add random comp, add lazyload" />
     <MESSAGE value="optimize code, add Search functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize code, add Search functionality" />
+    <MESSAGE value="add react-router-dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="add react-router-dom" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609779484235">

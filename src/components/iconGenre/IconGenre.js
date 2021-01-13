@@ -3,20 +3,20 @@ import './IconGenre.css'
 
 const IconGenre = ({ platform, genre }) => {
 
-  const genreToUpper = genre.toLowerCase()
+  const genreTolowerCase = genre.toLowerCase()
 
   if (platform === 'Web Browser') {
     return <i className="fab fa-firefox-browser">
       <small className="text-muted">
         <span>{platform}</span>
-        <span className="badge">{genreToUpper}</span>
+        <span className="badge">{genreTolowerCase}</span>
       </small>
     </i>
   } else if (platform === 'PC (Windows)') {
     return <i className="fab fa-windows">
       <small className="text-muted">
         <span>{platform}</span>
-        <span className="badge">{genreToUpper}</span>
+        <span className="badge">{genreTolowerCase}</span>
       </small>
     </i>
   } else {
@@ -25,7 +25,7 @@ const IconGenre = ({ platform, genre }) => {
       <i className="fab fa-windows" />
       <small className="text-muted">
         <span>{platform}</span>
-        <span className="badge ">{genreToUpper}</span>
+        <span className="badge ">{genreTolowerCase}</span>
       </small>
     </>
   }

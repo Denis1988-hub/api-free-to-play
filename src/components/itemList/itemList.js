@@ -3,7 +3,7 @@ import './itemList.css'
 import IconGenre from "../iconGenre/IconGenre";
 import {LazyLoadImage} from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 class ItemList extends Component {
 
@@ -20,22 +20,19 @@ class ItemList extends Component {
   render() {
 
     const {
-      developer, ftgProfileUrl, gameUrl, id, genre,
-      platform, publisher, releaseDate, shortDescription,
-      thumbnail, title, onHandlerCardClick
+      id, genre,
+      platform, shortDescription,
+      thumbnail, title,
     } = this.props;
 
-
-    const onCutDescription = this.toStraightString(shortDescription)
-
+    const onCutDescription = this.toStraightString(shortDescription);
 
     return (
 
         <div className="col-xl-3 col-md-4 game-card">
           <div className="card-group">
-            <NavLink className="navlink" to={'/game-details'}>
+            <NavLink className="link" to={`/game-list/${id}`}>
               <div className="card item"
-                   onClick={onHandlerCardClick}
               >
                 <LazyLoadImage
                     effect="blur"

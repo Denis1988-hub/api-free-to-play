@@ -13,9 +13,10 @@
     -o-transition: 0.2s ease-in; /* Opera */
 }
 
-.navlink {
+.link {
     text-decoration: none;
 }
+
 
 .item img {
     width: 100%;
@@ -23,9 +24,8 @@
 
 
 .item:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 4px 10px #cccccc;
-
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px #cccccc;
 }
 
 

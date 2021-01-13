@@ -2,37 +2,18 @@ import React, {Component} from 'react';
 import './GameDetails.css'
 import APIService from "../apiService/APIService";
 import Spinner from "../spinner/Spinner";
+import IconGenre from "../iconGenre/IconGenre";
 
 class GameDetails extends Component {
 
   api = new APIService();
-
-  state = {
-    gameItem: null
-  };
-
-  componentWillMount() {
-    const {getData} = this.props;
-    this.setState({
-      gameItem: getData
-    })
-  }
-
-  updateData() {
-    const {getData} = this.props;
-    this.setState(() => {
-      return {
-        gameItem: getData
-      }
-    })
-  }
 
   getVideoById(id) {
     return this.api.getGameVideo(id)
   }
 
   showVideo(source) {
-    const {thumbnail} = this.state.gameItem;
+    const {thumbnail} = this.props.getData;
     return (
         <video className="player" autoPlay preload="none" poster={thumbnail}>
           <source src={source} type="video/mp4"/>
@@ -56,7 +37,6 @@ class GameDetails extends Component {
 
     return (
 
-
           <div className="container video-page">
             <img src={thumbnail} className="bg" alt=""/>
             <div className="col-md-8 info">
@@ -79,7 +59,7 @@ class GameDetails extends Component {
                 <li className="list-group-item"><p>Release Date:&nbsp; {releaseDate}</p></li>
                 <li className="list-group-item"><p>Genre:&nbsp; {genre}</p></li>
                 <li className="list-group-item"><p>Platform: &nbsp;
-                  <i className="fab fa-windows mr-1"/> {platform}</p></li>
+                  {platform}</p></li>
               </ul>
             </aside>
         </div>

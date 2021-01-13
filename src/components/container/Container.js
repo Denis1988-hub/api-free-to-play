@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './Container.css'
 import Spinner from "../spinner/Spinner";
 import ItemList from "../itemList/itemList";
-import RandomGame from "../randomGame/RandomGame";
 
 
 export default class Container extends Component {
@@ -17,23 +16,6 @@ export default class Container extends Component {
         />
     )
   }
-
-  isEmpty() {
-    return (
-        <div className="empty">
-          <h1>Nothing found...</h1>
-          <p className="lead">
-            Refresh page or click the button
-          </p>
-          <button className="btn btn-secondary"
-                  onClick={() => document.location.reload()}
-          >
-            Return
-          </button>
-        </div>
-    )
-  }
-
 
   render() {
 

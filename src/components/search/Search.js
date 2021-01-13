@@ -26,20 +26,24 @@ class Search extends Component {
     })
   };
 
+
+
   render() {
 
     return (
         <form className="form d-flex"
-          onSubmit={(e) => this.onFormSubmit(e)}
+              onSubmit={(e) => this.onFormSubmit(e)}
         >
           <input className="form-control me-2" type="search" placeholder="Search for...."
                  value={this.state.query}
-            onChange={this.handleInputChange}
+                 onChange={this.handleInputChange}
           />
-          <Link to='/game-list' exact >
-          <button className="btn btn-outline-primary" type="submit"
-            onClick={() => this.onHandleClick()}
-          >Search</button></Link>
+          <Link to={'/game-list'}>
+            <button className="btn btn-outline-primary" type="submit"
+                    onClick={() => this.onHandleClick()}
+            >Search
+            </button>
+          </Link>
         </form>
     );
   }
