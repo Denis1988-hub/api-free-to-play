@@ -18,7 +18,6 @@ class App extends Component {
   state = {
     data: [],
     query: '',
-    redirect: true
   };
 
   componentDidMount() {
