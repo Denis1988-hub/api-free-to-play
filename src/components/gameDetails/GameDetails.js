@@ -59,7 +59,7 @@ class GameDetails extends Component {
                 <li className="list-group-item"><p>Release Date:&nbsp; {releaseDate}</p></li>
                 <li className="list-group-item"><p>Genre:&nbsp; {genre}</p></li>
                 <li className="list-group-item"><p>Platform: &nbsp;
-                  {platform}</p></li>
+                  <IconGenre platform={platform}/></p></li>
               </ul>
             </aside>
         </div>

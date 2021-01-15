@@ -1,12 +1,13 @@
 
 i {
     font-size: 16px;
-    margin-right: 3px;
+    margin: 0 5px
 
 }
 
-.text-muted {
+.text{
     margin-left: 5px;
+    color: orange;
 }
 
 .fa-firefox-browser {
@@ -15,13 +16,4 @@ i {
 
 .fa-windows {
     color: white;
-}
-
-.badge {
-    margin-left: 1rem;
-    background: orangered;
-    font-size: 14px;
-    color: black;
-    float: right;
-    padding: 2px;
 }

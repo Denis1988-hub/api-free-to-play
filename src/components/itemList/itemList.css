@@ -17,6 +17,9 @@
     text-decoration: none;
 }
 
+.badge {
+
+}
 
 .item img {
     width: 100%;
@@ -24,8 +27,8 @@
 
 
 .item:hover{
-    transform: translateY(-1px);
-    box-shadow: 0 4px 16px #cccccc;
+    transform: translateY(1px);
+    box-shadow: 0 4px 12px #cccccc;
 }
 
 

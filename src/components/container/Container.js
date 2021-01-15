@@ -2,36 +2,64 @@ import React, {Component} from 'react';
 import './Container.css'
 import Spinner from "../spinner/Spinner";
 import ItemList from "../itemList/itemList";
+import APIService from "../apiService/APIService";
+import Error from "../Error/Error";
 
 
-export default class Container extends Component {
+class Container extends Component {
 
+    api = new APIService();
 
-  showGameList(data) {
-    return data.map((item) => <ItemList
-            key={item.id}
-            {...item}
-            onHandlerCardClick={() => this.props.onHandlerCardClick(item.id)}
-
-        />
-    )
-  }
-
-  render() {
-
-    const {data} = this.props;
-
-    if (!data) {
-      return <Spinner/>
+    state = {
+        data: []
     }
 
-    return (
-          <>
-            <p><strong>{data.length}</strong> free-to-play games found in our list!</p>
-            <div className='game-area'>
-              {this.showGameList(data)}
-            </div>
-          </>
-    );
-  }
+    componentDidMount() {
+        this.updateData();
+    }
+
+    onListLoaded = (data) => {
+        this.setState({
+            data,
+        });
+
+    };
+
+    updateData() {
+        this.api.getGameList()
+            .then(list => this.onListLoaded(list))
+            .catch(<Error/>)
+    }
+
+
+    showGameList = (data) => {
+        return data.map((item) =>
+            <ItemList
+                key={item.id}
+                {...item}
+            />
+        )
+    }
+
+    render() {
+
+        const { data } = this.state
+
+        if (!data) {
+            return <Spinner/>
+        }
+
+
+        return (
+            <>
+                <p><strong>{data.length}</strong> free-to-play games found in our list!</p>
+                <div className='game-area'>
+                    {this.showGameList(data)}
+                </div>
+            </>
+        );
+    }
 }
+
+export default Container;
+
