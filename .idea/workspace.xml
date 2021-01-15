@@ -6,11 +6,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/container/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +113,7 @@
       <workItem from="1610510918975" duration="6629000" />
       <workItem from="1610548029461" duration="4558000" />
       <workItem from="1610629325474" duration="7669000" />
+      <workItem from="1610729785319" duration="4100000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1609744484486</created>
@@ -182,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610548826389</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed bug with route">
+      <created>1610729997553</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610729997553</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +210,8 @@
     <MESSAGE value="optimize code, add random comp, add lazyload" />
     <MESSAGE value="optimize code, add Search functionality" />
     <MESSAGE value="add react-router-dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="add react-router-dom" />
+    <MESSAGE value="fixed bug with route" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug with route" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609779484235">
@@ -218,29 +222,29 @@
       <screen x="1920" y="0" width="1707" height="919" />
     </state>
     <state x="2480" y="141" key="#npm_start/0.0.1707.919/1920.0.1707.919@1920.0.1707.919" timestamp="1609763050070" />
-    <state x="470" y="24" key="CommitChangelistDialog2" timestamp="1610548825584">
+    <state x="676" y="35" key="CommitChangelistDialog2" timestamp="1610729995488">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state x="470" y="24" key="CommitChangelistDialog2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610548825584" />
-    <state width="1686" height="143" key="GridCell.Tab.0.bottom" timestamp="1610640397828">
+    <state x="676" y="35" key="CommitChangelistDialog2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610729995488" />
+    <state width="1686" height="143" key="GridCell.Tab.0.bottom" timestamp="1610732496963">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="143" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610640397828" />
-    <state width="1686" height="143" key="GridCell.Tab.0.center" timestamp="1610640397827">
+    <state width="1686" height="143" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610732496963" />
+    <state width="1686" height="143" key="GridCell.Tab.0.center" timestamp="1610732496963">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="143" key="GridCell.Tab.0.center/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610640397827" />
-    <state width="1686" height="143" key="GridCell.Tab.0.left" timestamp="1610640397827">
+    <state width="1686" height="143" key="GridCell.Tab.0.center/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610732496963" />
+    <state width="1686" height="143" key="GridCell.Tab.0.left" timestamp="1610732496963">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="143" key="GridCell.Tab.0.left/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610640397827" />
-    <state width="1686" height="143" key="GridCell.Tab.0.right" timestamp="1610640397827">
+    <state width="1686" height="143" key="GridCell.Tab.0.left/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610732496963" />
+    <state width="1686" height="143" key="GridCell.Tab.0.right" timestamp="1610732496963">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="143" key="GridCell.Tab.0.right/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610640397827" />
-    <state x="445" y="192" key="Vcs.Push.Dialog.v2" timestamp="1610548828910">
+    <state width="1686" height="143" key="GridCell.Tab.0.right/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610732496963" />
+    <state x="445" y="192" key="Vcs.Push.Dialog.v2" timestamp="1610730002387">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state x="445" y="192" key="Vcs.Push.Dialog.v2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610548828910" />
+    <state x="445" y="192" key="Vcs.Push.Dialog.v2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610730002387" />
   </component>
 </project>

@@ -9,6 +9,16 @@ import GameDetails from "../gameDetails/GameDetails";
 import {Route, Switch} from "react-router-dom";
 import RandomGame from "../randomGame/RandomGame";
 import TopGames from "../topGames/topGames";
+import Spinner from "../spinner/Spinner";
+
+
+function loadingData (loading, comp) {
+    if (loading) {
+        return <Spinner />
+    } else  {
+        return comp
+    }
+}
 
 
 class App extends Component {
@@ -18,6 +28,7 @@ class App extends Component {
     state = {
         data: [],
         query: '',
+        loading: true
     };
 
     componentDidMount() {
@@ -27,6 +38,7 @@ class App extends Component {
     onListLoaded = (data) => {
         this.setState({
             data,
+            loading: false
         });
 
     };
@@ -62,10 +74,14 @@ class App extends Component {
     }
 
 
+
+
     render() {
 
-        const {data, query} = this.state;
+        const {data, query, loading} = this.state;
         const visibleItems = this.filter(data, query);
+
+        const content = loading ? <Spinner /> : <Container />
 
         return (
             <Switch>
@@ -76,7 +92,8 @@ class App extends Component {
                         <Route exact path='/' render={() => <RandomGame/>}/>
 
                         <Route exact path='/game-list' render={() =>
-                            <Container data={visibleItems}/>}
+                            loadingData(loading, <Container data={visibleItems}/>)
+                        }
                         />
 
                         <Route path='/game-list/:title' render={({match}) => {
