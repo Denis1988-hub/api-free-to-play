@@ -31,6 +31,7 @@ class Nav extends Component {
               </li>
             </ul>
             <Search onSearchItems={this.props.onSearchItems}/>
+        {/*     <i className="fas fa-sign-in-alt"></i>*/}
           </div>
         </nav>
     );

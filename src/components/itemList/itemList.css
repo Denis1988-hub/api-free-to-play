@@ -1,16 +1,16 @@
 .game-card {
-    width: 24%;
+    width: 33%;
+    padding: 4px;
     cursor: pointer;
-    margin: 1% 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
 }
 
 .item {
-    height: 280px;
+    height: 300px;
     background-color: #32383e;
     color: #cccccc;
-    -webkit-transition: 0.2s ease-in; /* Safari and Chrome */
-    -moz-transition: 0.2s ease-in; /* Firefox 4 */
-    -o-transition: 0.2s ease-in; /* Opera */
+    transition: 0.3s ease-in-out;
 }
 
 .link {
@@ -27,8 +27,9 @@
 
 
 .item:hover{
-    transform: translateY(1px);
-    box-shadow: 0 4px 12px #cccccc;
+    box-shadow: -1px 2px 5px 2px #fff;
+    z-index: 1;
+    transform: translateY( -3px ) scale( 1.01 ) rotateX( 1deg );
 }
 
 

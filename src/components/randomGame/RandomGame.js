@@ -4,72 +4,72 @@ import Spinner from "../spinner/Spinner";
 import APIService from "../apiService/APIService";
 import freePng from './frees.png'
 import Error from "../Error/Error";
+import {Link} from "react-router-dom";
 
 export default class RandomGame extends Component {
 
   api = new APIService();
 
   state = {
-    images: []
+    data: [],
+    loading: true
   };
 
   componentDidMount() {
-      this.getData()
+    this.getData()
   }
 
-
-
-  onImageLoaded = (images) => {
-    const img = images.map(img => img.thumbnail);
+  onDataLoaded = (data) => {
     this.setState(() => {
       return {
-        images: img
+        data,
+        loading: false
       }
-
     })
   };
 
   getData() {
     this.api.getGameList()
-        .then((item) => this.onImageLoaded(item))
+        .then((item) => this.onDataLoaded(item))
         .catch(<Error/>)
   }
 
-  renderCard(image) {
-    if (Object.keys(image).length !== 0) {
-      const index = Math.floor(Math.random() * image.length);
-      return (
+  renderCard(data) {
 
-            <div className="card mb-4 size">
-              <img className="card-img-top" src={image[index]} alt={''}/>
+    const titles = data.map(item => item.title)
+    const images = data.map(item => item.thumbnail)
+
+    if (Object.keys(data).length > 0) {
+      const index = Math.floor(Math.random() * images.length);
+      return (
+          <div className="col-sm-4 mt-4 size">
+            <Link to={`/game-list/${titles[index]}`}>
+              <img className="img" src={images[index]} alt={''}/>
               <img className="free" src={freePng} alt=""/>
-
-          </div>)
-    } else {
-      return (
-          <Spinner/>
+            </Link>
+          </div>
       )
     }
-
   }
-
-  renderContent(images) {
-    return (
-        <div className="row random-container">
-          {this.renderCard(images)}
-          {this.renderCard(images)}
-          {this.renderCard(images)}
-          {this.renderCard(images)}
-        </div>
-    )
-  }
-
 
   render() {
 
-  const {images} = this.state;
+    const {data, loading} = this.state;
 
-  return this.renderContent(images)
+    if (loading) {
+      return <Spinner/>
+    }
+
+    return (
+        <div className="row">
+          {this.renderCard(data)}
+          {this.renderCard(data)}
+          {this.renderCard(data)}
+          {this.renderCard(data)}
+          {this.renderCard(data)}
+          {this.renderCard(data)}
+        </div>
+    )
 
   }
-  }
+}

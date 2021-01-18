@@ -81,8 +81,6 @@ class App extends Component {
         const {data, query, loading} = this.state;
         const visibleItems = this.filter(data, query);
 
-        const content = loading ? <Spinner /> : <Container />
-
         return (
             <Switch>
                 <Layout>
@@ -92,13 +90,13 @@ class App extends Component {
                         <Route exact path='/' render={() => <RandomGame/>}/>
 
                         <Route exact path='/game-list' render={() =>
-                            loadingData(loading, <Container data={visibleItems}/>)
+                             loadingData(loading, <Container data={visibleItems}/>)
                         }
                         />
 
                         <Route path='/game-list/:title' render={({match}) => {
-                            const {title} = match.params
-                            const index = data.findIndex(item => item.title === title)
+                            const {title} = match.params;
+                            const index = data.findIndex(item => item.title === title);
                             return <GameDetails getData={data[index]}/>
                         }}/>
 

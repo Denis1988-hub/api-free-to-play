@@ -16,15 +16,15 @@ class Container extends Component {
                 {...item}
             />
         )
-    }
+    };
 
     render() {
 
-        const { data } = this.props
+        const { data } = this.props;
 
         return (
             <>
-                <p><strong>{data.length}</strong> free-to-play games found in our list!</p>
+                <p className="par"><span className="num">{data.length}</span> free-to-play games found in our list!</p>
                 <div className='game-area'>
                     {
                         this.showGameList(data)

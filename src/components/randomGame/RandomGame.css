@@ -1,15 +1,15 @@
-.random-container{
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
 
 .size {
     width: 50%;
-    background-color: transparent;
+    position: relative;
+
 }
 
+.size .img {
+    width: 100%;
+    transition: 0.3s ease-in-out;
 
+}
 
 .free {
     width: 60px;
@@ -17,3 +17,9 @@
     right: -10px;
     position: absolute;
 }
+
+.img:hover {
+    box-shadow: 0 8px 16px 3px #aaaaaa;
+    transform: translateY( -3px ) scale( 1.01 );
+}
+
