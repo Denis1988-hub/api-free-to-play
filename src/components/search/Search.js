@@ -21,9 +21,9 @@ class Search extends Component {
 
   onHandleClick = () => {
     this.props.onSearchItems(this.state.query);
-    this.setState({
+  /*  this.setState({
       query: ''
-    })
+    })*/
   };
 
 

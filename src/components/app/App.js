@@ -57,6 +57,11 @@ class App extends Component {
         this.setState({query})
     };
 
+    getRandomGame = (data) => {
+        const index = Math.floor(Math.random() * 10);
+        return data[index]
+    };
+
     isEmpty() {
         return (
             <div className="empty">
@@ -100,7 +105,10 @@ class App extends Component {
                             return <GameDetails getData={data[index]}/>
                         }}/>
 
-                        <Route path='/top-games' render={() => <TopGames/>}/>
+                        <Route path='/top-games' render={() => {
+                            const randomGame = this.getRandomGame(data);
+                            console.log(randomGame)
+                        }}/>
 
                     </div>
                 </Layout>

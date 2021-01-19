@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="fixed bug with route">
+    <list default="true" id="4b226d1d-e0cd-4e4f-a5e0-54d7de3ff06a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Error/Error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Error/Error.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Error/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Error/Error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/apiService/APIService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/apiService/APIService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/container/Container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/Container.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/container/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/Container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gameDetails/GameDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header..css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header..css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconGenre/IconGenre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/Logo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomGame/RandomGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search/Search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/Spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/Spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/Spinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topGames/topGames.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topGames/topGames.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/topGames/topGames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topGames/topGames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +119,8 @@
       <workItem from="1610629325474" duration="7669000" />
       <workItem from="1610729785319" duration="4297000" />
       <workItem from="1610977461244" duration="667000" />
-      <workItem from="1610980867770" duration="11394000" />
+      <workItem from="1610980867770" duration="11530000" />
+      <workItem from="1611062297606" duration="5578000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1609744484486</created>
@@ -222,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610734576386</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="css changes, add dynamic link i homepage">
+      <created>1610993340713</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610993340713</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +232,8 @@
     <MESSAGE value="optimize code, add Search functionality" />
     <MESSAGE value="add react-router-dom" />
     <MESSAGE value="fixed bug with route" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bug with route" />
+    <MESSAGE value="css changes, add dynamic link i homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="css changes, add dynamic link i homepage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609779484235">
@@ -259,30 +244,30 @@
       <screen x="1920" y="0" width="1707" height="919" />
     </state>
     <state x="2480" y="141" key="#npm_start/0.0.1707.919/1920.0.1707.919@1920.0.1707.919" timestamp="1609763050070" />
-    <state x="676" y="35" key="CommitChangelistDialog2" timestamp="1610983113353">
+    <state x="676" y="35" key="CommitChangelistDialog2" timestamp="1610993339331">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state x="676" y="35" key="CommitChangelistDialog2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610983113353" />
-    <state width="1686" height="96" key="GridCell.Tab.0.bottom" timestamp="1610986726644">
+    <state x="676" y="35" key="CommitChangelistDialog2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610993339331" />
+    <state width="1686" height="96" key="GridCell.Tab.0.bottom" timestamp="1610993380805">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="96" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610986726644" />
-    <state width="1686" height="96" key="GridCell.Tab.0.center" timestamp="1610986726643">
+    <state width="1686" height="96" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610993380805" />
+    <state width="1686" height="96" key="GridCell.Tab.0.center" timestamp="1610993380805">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="96" key="GridCell.Tab.0.center/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610986726643" />
-    <state width="1686" height="96" key="GridCell.Tab.0.left" timestamp="1610986726643">
+    <state width="1686" height="96" key="GridCell.Tab.0.center/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610993380805" />
+    <state width="1686" height="96" key="GridCell.Tab.0.left" timestamp="1610993380805">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="96" key="GridCell.Tab.0.left/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610986726643" />
-    <state width="1686" height="96" key="GridCell.Tab.0.right" timestamp="1610986726644">
+    <state width="1686" height="96" key="GridCell.Tab.0.left/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610993380805" />
+    <state width="1686" height="96" key="GridCell.Tab.0.right" timestamp="1610993380805">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state width="1686" height="96" key="GridCell.Tab.0.right/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610986726644" />
-    <state x="445" y="192" key="Vcs.Push.Dialog.v2" timestamp="1610734579445">
+    <state width="1686" height="96" key="GridCell.Tab.0.right/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610993380805" />
+    <state x="445" y="192" key="Vcs.Push.Dialog.v2" timestamp="1610993343261">
       <screen x="0" y="0" width="1707" height="919" />
     </state>
-    <state x="445" y="192" key="Vcs.Push.Dialog.v2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610734579445" />
+    <state x="445" y="192" key="Vcs.Push.Dialog.v2/0.0.1707.919/1920.0.1707.919@0.0.1707.919" timestamp="1610993343261" />
     <state x="658" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610983099414">
       <screen x="0" y="0" width="1707" height="919" />
     </state>

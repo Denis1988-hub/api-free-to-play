@@ -39,10 +39,10 @@ class GameDetails extends Component {
 
           <div className="container video-page">
             <img src={thumbnail} className="bg" alt=""/>
-            <div className="col-md-8 info">
+            <div className="col-md-2 info">
               <div className="card m-3 video-card">
                 {this.showVideo(video)}
-                <div className="card-body mt-5">
+                <div className="card-body mt-2">
                   <h3>About</h3>
                   <p className="card-text">{shortDescription}.</p>
                 </div>
